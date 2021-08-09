@@ -86,9 +86,9 @@ def main():
     args = parser.parse_args()
 
     if args.outputDir is None:
-        if not os.path.exists('./TrainValDataset'):
-            os.makedirs('./TrainValDataset')
-        args.outputDir = './TrainValDataset'
+        if not os.path.exists('/content/CMND/TrainValDataset'):
+            os.makedirs('/content/CMND/TrainValDataset')
+        args.outputDir = '/content/CMND/TrainValDataset'
 
     # Now we are ready to start the iteration
     iterate_dir(args.imageDir, args.outputDir, args.ratio, args.xml)    
