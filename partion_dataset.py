@@ -20,44 +20,38 @@ import math
 import random
 
 def iterate_dir(source, dest, ratio, copy_xml):
-    source = source.replace('\\', '/')
-    dest = dest.replace('\\', '/')
-    train_dir = os.path.join(dest, 'train')
-    test_dir = os.path.join(dest, 'test')
+   source = source.replace('\\', '/')
+   dest = dest.replace('\\', '/')
+   train_dir = os.path.join(dest, 'train')
+   test_dir = os.path.join(dest, 'test')
 
-    if not os.path.exists(train_dir):
-        os.makedirs(train_dir)
-    if not os.path.exists(test_dir):
-        os.makedirs(test_dir)
+   if not os.path.exists(train_dir):
+    os.makedirs(train_dir)
+   if not os.path.exists(test_dir):
+    os.makedirs(test_dir)
 
-    images = [f for f in os.listdir(source)
-              if re.search(r'([a-zA-Z0-9\s_\\.\-\(\):])+(.jpg|.jpeg|.png)$', f)]
+   images = [f for f in os.listdir(source)
+   if re.search(r'([a-zA-Z0-9\s_\\.\-\(\):])+(.jpg|.jpeg|.png)$', f)]
 
-    num_images = len(images)
-    num_test_images = math.ceil(ratio*num_images)
+   num_images = len(images)
+   num_test_images = math.ceil(ratio*num_images)
 
-    for i in range(num_test_images):
-        idx = random.randint(0, len(images)-1)
-        filename = images[idx]
-        copyfile(os.path.join(source, filename),
-                 os.path.join(test_dir, filename))
-        if copy_xml:
-            xml_filename = os.path.splitext(filename)[0]+'.xml'
-            copyfile(os.path.join(source, xml_filename),
-                     os.path.join(test_dir, xml_filename))
+   for i in range(num_test_images):
+    idx = random.randint(0, len(images)-1)
+    filename = images[idx]
+    copyfile(os.path.join(source, filename), os.path.join(test_dir, filename))
+    if copy_xml:
+        xml_filename = os.path.splitext(filename)[0]+'.xml'
+        copyfile(os.path.join(source, xml_filename), os.path.join(test_dir, xml_filename))
         images.remove(images[idx])
-
     for filename in images:
-        copyfile(os.path.join(source, filename),
-                 os.path.join(train_dir, filename))
+        copyfile(os.path.join(source, filename), os.path.join(train_dir, filename))
         if copy_xml:
             xml_filename = os.path.splitext(filename)[0]+'.xml'
-            copyfile(os.path.join(source, xml_filename),
-                     os.path.join(train_dir, xml_filename))
+            copyfile(os.path.join(source, xml_filename), os.path.join(train_dir, xml_filename))
 
 
-def main():
-
+if __name__ ='main':
     # Initiate argument parser
     parser = argparse.ArgumentParser(description="Partition dataset of images into training and testing sets", formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
