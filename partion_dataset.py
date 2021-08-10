@@ -51,7 +51,7 @@ def iterate_dir(source, dest, ratio, copy_xml):
         copyfile(os.path.join(source, xml_filename), os.path.join(train_dir, xml_filename))
 
 
-if name == 'main':
+if __name__ == 'main':
     # Initiate argument parser
   parser = argparse.ArgumentParser(description="Partition dataset of images into training and testing sets", formatter_class=argparse.RawTextHelpFormatter)
   parser.add_argument('-i', '--imageDir',help='Path to the folder where the image dataset is stored. If not specified, the CWD will be used.',type=str,default=os.getcwd())
