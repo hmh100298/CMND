@@ -85,4 +85,4 @@ if __name__ ='main':
         args.outputDir = '/content/CMND/TrainValDataset'
 
     # Now we are ready to start the iteration
-    iterate_dir(args.imageDir, args.outputDir, args.ratio, args.xml)    
+    iterate_dir('/content/CMND1/partion_dataset.py', '/content/CMND1/Dataset', 0.1, 1)    
