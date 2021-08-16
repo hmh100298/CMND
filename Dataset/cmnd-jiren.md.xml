@@ -1,7 +1,7 @@
 <annotation>
-	<folder>id_card</folder>
+	<folder>anh_cmnd</folder>
 	<filename>cmnd-jiren.md.jpg</filename>
-	<path>/home/vibloteam/Project/pytorch_comunity/data/id_card/cmnd-jiren.md.jpg</path>
+	<path>D:\testAI\anh_cmnd\cmnd-jiren.md.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>407</xmin>
-			<ymin>4</ymin>
-			<xmax>452</xmax>
-			<ymax>48</ymax>
+			<xmin>409</xmin>
+			<ymin>8</ymin>
+			<xmax>456</xmax>
+			<ymax>53</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>424</xmin>
-			<ymin>593</ymin>
-			<xmax>472</xmax>
-			<ymax>636</ymax>
+			<xmin>423</xmin>
+			<ymin>590</ymin>
+			<xmax>469</xmax>
+			<ymax>634</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>46</xmin>
-			<ymin>590</ymin>
-			<xmax>93</xmax>
-			<ymax>645</ymax>
+			<xmin>51</xmin>
+			<ymin>595</ymin>
+			<xmax>97</xmax>
+			<ymax>635</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>32</xmin>
-			<ymin>7</ymin>
-			<xmax>80</xmax>
-			<ymax>51</ymax>
+			<xmin>40</xmin>
+			<ymin>12</ymin>
+			<xmax>85</xmax>
+			<ymax>54</ymax>
 		</bndbox>
 	</object>
 </annotation>

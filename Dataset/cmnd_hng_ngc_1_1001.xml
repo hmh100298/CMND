@@ -1,7 +1,7 @@
 <annotation>
-	<folder>Hoang</folder>
+	<folder>anh_cmnd</folder>
 	<filename>cmnd_hng_ngc_1_1001.jpg</filename>
-	<path>/home/phan.huy.hoang/workspace/framgia/reid_card/data/total_real_img/Hoang/cmnd_hng_ngc_1_1001.jpg</path>
+	<path>D:\testAI\anh_cmnd\cmnd_hng_ngc_1_1001.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2</xmin>
-			<ymin>16</ymin>
-			<xmax>33</xmax>
-			<ymax>43</ymax>
+			<xmin>4</xmin>
+			<ymin>20</ymin>
+			<xmax>27</xmax>
+			<ymax>37</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>346</xmin>
-			<ymin>16</ymin>
+			<xmin>352</xmin>
+			<ymin>18</ymin>
 			<xmax>369</xmax>
-			<ymax>38</ymax>
+			<ymax>34</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,9 +41,9 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>348</xmin>
-			<ymin>228</ymin>
-			<xmax>368</xmax>
+			<xmin>356</xmin>
+			<ymin>237</ymin>
+			<xmax>369</xmax>
 			<ymax>254</ymax>
 		</bndbox>
 	</object>
@@ -53,9 +53,9 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5</xmin>
-			<ymin>232</ymin>
-			<xmax>32</xmax>
+			<xmin>7</xmin>
+			<ymin>241</ymin>
+			<xmax>30</xmax>
 			<ymax>254</ymax>
 		</bndbox>
 	</object>

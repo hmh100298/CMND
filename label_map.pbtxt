@@ -9,10 +9,10 @@ item {
 }
 item {
   id: 3
-  name: 'bottom_left'
+  name: 'bottom_right'
 }
 
 item {
   id: 4
-  name: 'bottom_right'
+  name: 'bottom_left'
 }

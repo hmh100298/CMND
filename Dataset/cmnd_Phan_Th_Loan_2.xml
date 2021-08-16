@@ -1,7 +1,7 @@
 <annotation>
-	<folder>id_card</folder>
+	<folder>anh_cmnd</folder>
 	<filename>cmnd_Phan_Th_Loan_2.jpg</filename>
-	<path>/home/vibloteam/Project/pytorch_comunity/data/id_card/cmnd_Phan_Th_Loan_2.jpg</path>
+	<path>D:\testAI\anh_cmnd\cmnd_Phan_Th_Loan_2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>1</ymin>
-			<xmax>27</xmax>
-			<ymax>19</ymax>
+			<ymin>2</ymin>
+			<xmax>23</xmax>
+			<ymax>13</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -32,7 +32,7 @@
 			<xmin>505</xmin>
 			<ymin>1</ymin>
 			<xmax>524</xmax>
-			<ymax>16</ymax>
+			<ymax>15</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,8 +41,8 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>500</xmin>
-			<ymin>304</ymin>
+			<xmin>506</xmin>
+			<ymin>309</ymin>
 			<xmax>524</xmax>
 			<ymax>328</ymax>
 		</bndbox>
@@ -54,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>308</ymin>
-			<xmax>27</xmax>
-			<ymax>328</ymax>
+			<ymin>309</ymin>
+			<xmax>14</xmax>
+			<ymax>327</ymax>
 		</bndbox>
 	</object>
 </annotation>

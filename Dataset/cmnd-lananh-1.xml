@@ -1,7 +1,7 @@
 <annotation>
-	<folder>id_card</folder>
+	<folder>anh_cmnd</folder>
 	<filename>cmnd-lananh-1.jpg</filename>
-	<path>/home/vibloteam/Project/pytorch_comunity/data/id_card/cmnd-lananh-1.jpg</path>
+	<path>D:\testAI\anh_cmnd\cmnd-lananh-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+		<name>top_right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>4</ymin>
+			<xmax>345</xmax>
+			<ymax>28</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>top_left</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>10</ymin>
-			<xmax>16</xmax>
-			<ymax>28</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>top_right</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>322</xmin>
-			<ymin>4</ymin>
-			<xmax>345</xmax>
-			<ymax>22</ymax>
+			<ymin>6</ymin>
+			<xmax>18</xmax>
+			<ymax>32</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>323</xmin>
-			<ymin>196</ymin>
-			<xmax>343</xmax>
-			<ymax>217</ymax>
+			<xmin>325</xmin>
+			<ymin>199</ymin>
+			<xmax>349</xmax>
+			<ymax>221</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,9 +54,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>206</ymin>
-			<xmax>16</xmax>
-			<ymax>226</ymax>
+			<ymin>204</ymin>
+			<xmax>10</xmax>
+			<ymax>225</ymax>
 		</bndbox>
 	</object>
 </annotation>
